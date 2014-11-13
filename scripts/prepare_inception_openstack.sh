@@ -44,7 +44,7 @@ fi
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get install build-essential libsqlite3-dev curl rsync git-core \
-libmysqlclient-dev libxml2-dev libxslt-dev libpq-dev genisoimage mkpasswd \
+libmysqlclient-dev libxml2-dev libxslt1-dev libpq-dev genisoimage libstring-mkpasswd-perl \
 libreadline6-dev libyaml-dev sqlite3 autoconf libgdbm-dev libncurses5-dev \
 automake libtool bison pkg-config libffi-dev debootstrap kpartx qemu -y
 
